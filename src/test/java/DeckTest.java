@@ -38,8 +38,8 @@ public class DeckTest {
         ArrayList<Card> startingDeck = new ArrayList<Card>(deck.cardsInCurrentOrder());
         deck.shuffleCards();
         assertNotEquals(startingDeck.get(0), deck.cardsInCurrentOrder().get(0));
-
-
     }
+
+
 
 }
