@@ -5,12 +5,14 @@ import static org.junit.Assert.assertEquals;
 
 public class PlayerTest {
 
+    Player player1;
+    Player player2;
+
     @Before
     public void before(){
-        Player player1 = new Player("Sophia");
-        Player player2 = new Player("Hitchia");
+        player1 = new Player("Sophia");
+        player2 = new Player("Hitchia");
     }
-
 
     @Test
     public void hasName(){
