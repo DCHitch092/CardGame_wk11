@@ -50,7 +50,7 @@ public class DeckTest {
 
     @Test
     public void deckCanDeal(){
-        shuffledDeck.deal(player1);
+        shuffledDeck.dealCard(player1);
         assertEquals(1, player1.cardsInHand().size());
     }
 

@@ -44,4 +44,8 @@ public class Deck {
 
     }
 
+
+    public void dealCard(Player player) {
+        player.addCard(cards.remove(0));
+    }
 }
