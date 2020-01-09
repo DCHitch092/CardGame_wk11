@@ -4,7 +4,6 @@ public enum SuitType {
     DIAMONDS(2),
     SPADES(1);
 
-
     private final int value;
 
     SuitType(int value){
