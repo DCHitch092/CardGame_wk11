@@ -1,8 +1,10 @@
 import java.util.ArrayList;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Play {
     public static void main(String[] args) throws Exception {
+
 
         Deck deck;
         Deck shuffledDeck;
@@ -11,8 +13,15 @@ public class Play {
         ArrayList<Player> players;
         Game game;
         deck = new Deck();
-        player1 = new Player("Sophia");
-        player2 = new Player("Hitchia");
+//        String input = userInput.nextLine();
+        System.out.println("player 1 enter your name:");
+        Scanner userInput = new Scanner(System.in);
+        String player1Input = userInput.nextLine();
+        player2 = new Player(player1Input);
+        player1 = new Player(player1Input);
+        System.out.println("player 2 enter your name:");
+        String player2Input = userInput.nextLine();
+        player2 = new Player(player2Input);
         shuffledDeck = new Deck();
         shuffledDeck.populateCards();
         shuffledDeck.shuffleCards();
@@ -37,10 +46,10 @@ public class Play {
         String winner = game.getWinner();
 
         if (winner == player1.getName()){
-            System.out.println("Hitchia winces...");
+            System.out.println(players.get(1).getName() + " winces...");
             TimeUnit.SECONDS.sleep(1);
         } else {
-            System.out.println("Sophia grins..!");
+            System.out.println(players.get(0).getName() + " grins..!");
             TimeUnit.SECONDS.sleep(1);
         }
 

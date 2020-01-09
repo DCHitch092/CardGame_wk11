@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="201711a9-7e1c-4362-ab0e-546115ea3abb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Play.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.GameTest">
+  <component name="RunManager" selected="Application.Play">
     <configuration name="Play" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Play" />
       <module name="HighestCardGameLAB" />
@@ -91,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GameTest" />
         <item itemvalue="Application.Play" />
+        <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.getWinningPlayer" />
         <item itemvalue="JUnit.GameTest.cardsAreDealt" />
         <item itemvalue="JUnit.GameTest.hasSetUp" />
@@ -125,28 +124,28 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1848" height="212" key="GridCell.Tab.0.bottom" timestamp="1578586712654">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1578597755663">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="543" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578586163498" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578597755663" />
     <state width="1398" height="218" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1578585866482" />
     <state width="1848" height="212" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1578586712654" />
-    <state width="1848" height="212" key="GridCell.Tab.0.center" timestamp="1578586712653">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1578597755660">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="543" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578586163497" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578597755660" />
     <state width="1398" height="218" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1578585866482" />
     <state width="1848" height="212" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1578586712653" />
-    <state width="1848" height="212" key="GridCell.Tab.0.left" timestamp="1578586712652">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1578597755659">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="543" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578586163496" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578597755659" />
     <state width="1398" height="218" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1578585866481" />
     <state width="1848" height="212" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1578586712652" />
-    <state width="1848" height="212" key="GridCell.Tab.0.right" timestamp="1578586712654">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1578597755661">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="543" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578586163497" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578597755661" />
     <state width="1398" height="218" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1578585866482" />
     <state width="1848" height="212" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1578586712654" />
     <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1578585225912">
