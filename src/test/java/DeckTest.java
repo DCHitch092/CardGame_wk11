@@ -11,12 +11,12 @@ public class DeckTest {
 
     @Before
     public void before(){
-       deck = new Deck()
+       deck = new Deck();
     }
 
     @Test
     public void deckStartsEmpty(){
-        assertEquals(0, deck.countCards())
+        assertEquals(0, deck.countCards());
     }
 
     @Test

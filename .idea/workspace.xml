@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="201711a9-7e1c-4362-ab0e-546115ea3abb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/SuitType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SuitType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="201711a9-7e1c-4362-ab0e-546115ea3abb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="JUnit.CardTest.canGetSuitValue">
+  <component name="RunManager" selected="JUnit.DeckTest.deckStartsEmpty">
     <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HighestCardGameLAB" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,8 +77,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeckTest.deckStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HighestCardGameLAB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DeckTest" />
+      <option name="METHOD_NAME" value="deckStartsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeckTest.deckStartsEmpty" />
         <item itemvalue="JUnit.CardTest.canGetSuitValue" />
         <item itemvalue="JUnit.CardTest.canGetRankValue" />
         <item itemvalue="JUnit.CardTest.canGetRank" />
