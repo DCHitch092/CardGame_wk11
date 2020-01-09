@@ -10,7 +10,6 @@ public enum SuitType {
         this.value = value;
     }
 
-
     public int getValue() {
         return value;
     }
