@@ -16,4 +16,10 @@ public class Game {
     public ArrayList<Player> getPlayers(){
         return players;
     }
+
+    public void dealCards(){
+        for(Player player : this.players){
+            deck.dealCard(player);
+        }
+    }
 }

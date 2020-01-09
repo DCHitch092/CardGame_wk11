@@ -42,22 +42,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.hasSetUp">
-    <configuration name="DeckTest.areCardsShuffled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HighestCardGameLAB" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="METHOD_NAME" value="areCardsShuffled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GameTest.cardsAreDealt">
     <configuration name="DeckTest.deckCanDeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HighestCardGameLAB" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DeckTest" />
       <option name="METHOD_NAME" value="deckCanDeal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.cardsAreDealt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HighestCardGameLAB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="cardsAreDealt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.cardsAreDealt" />
         <item itemvalue="JUnit.GameTest.hasSetUp" />
         <item itemvalue="JUnit.DeckTest.deckCanDeal" />
         <item itemvalue="JUnit.PlayerTest.hasCards" />
         <item itemvalue="JUnit.PlayerTest.hasName" />
-        <item itemvalue="JUnit.DeckTest.areCardsShuffled" />
       </list>
     </recent_temporary>
   </component>
@@ -129,22 +129,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1578582254272">
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1578582273053">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1578582254272" />
-    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1578582254272">
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1578582273053" />
+    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1578582273052">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1578582254272" />
-    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1578582254271">
+    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1578582273052" />
+    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1578582273051">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1578582254271" />
-    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1578582254272">
+    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1578582273051" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1578582273052">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
-    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1578582254272" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1578582273052" />
     <state width="1398" height="262" key="GridCell.Tab.1.bottom" timestamp="1578581038345">
       <screen x="0" y="23" width="1440" height="819" />
     </state>
