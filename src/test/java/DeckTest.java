@@ -9,10 +9,18 @@ import static org.junit.Assert.assertNotEquals;
 public class DeckTest {
 
     Deck deck;
+    Deck shuffledDeck;
+    Player player1;
+    Player player2;
 
     @Before
     public void before(){
        deck = new Deck();
+       player1 = new Player("Sophia");
+       player2 = new Player("Hitchia");
+       shuffledDeck = new Deck();
+       shuffledDeck.populateCards();
+       shuffledDeck.shuffleCards();
     }
 
     @Test
@@ -38,6 +46,12 @@ public class DeckTest {
         ArrayList<Card> startingDeck = new ArrayList<Card>(deck.cardsInCurrentOrder());
         deck.shuffleCards();
         assertNotEquals(startingDeck.get(0), deck.cardsInCurrentOrder().get(0));
+    }
+
+    @Test
+    public void deckCanDeal(){
+        shuffledDeck.deal(player1);
+        assertEquals(1, player1.cardsInHand().size());
     }
 
 

@@ -15,6 +15,7 @@ public class Player {
         return name;
     }
 
-    public Collection cardsInHand() {
+    public ArrayList<Card> cardsInHand() {
+        return hand;
     }
 }
