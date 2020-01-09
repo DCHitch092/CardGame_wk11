@@ -21,6 +21,7 @@ public class DeckTest {
 
     @Test
     public void canPopulateWithCards(){
+        deck.populateCards();
         assertEquals(52, deck.countCards());
     }
 
