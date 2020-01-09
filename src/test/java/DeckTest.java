@@ -15,6 +15,11 @@ public class DeckTest {
     }
 
     @Test
+    public void deckStartsEmpty(){
+        assertEquals(0, deck.countCards())
+    }
+
+    @Test
     public void canPopulateWithCards(){
         assertEquals(52, deck.countCards());
     }
