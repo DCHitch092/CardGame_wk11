@@ -22,4 +22,36 @@ public class Game {
             deck.dealCard(player);
         }
     }
+
+    public Card compareCard(Card card1, Card card2){
+        if (card1.getRankValue() == card2.getRankValue()) {
+            if (card1.getSuitValue() > card2.getSuitValue()) {
+                return card1;
+            } else {
+                return card2;
+            }
+        }
+
+        else if (card1.getRankValue() > card2.getRankValue()){
+            return card1;
+        } else {
+            return card2;
+        }
+    }
+
+    public String getWinner() {
+        ArrayList<Card> cardsInPlay = new ArrayList<Card>();
+        for ( Player player : this.players){
+            cardsInPlay.add(player.cardsInHand().get(0));
+        }
+        Card card1 = cardsInPlay.get(0);
+        Card card2 = cardsInPlay.get(1);
+        if (compareCard(card1, card2) == card1){
+
+            return players.get(0).getName();
+        } else {
+            return players.get(1).getName();
+        }
+
+    }
 }

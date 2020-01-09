@@ -40,4 +40,15 @@ public class GameTest {
         assertEquals(1, player1.cardsInHand().size());
         assertEquals(1, player2.cardsInHand().size());
     }
+
+    @Test
+    public void getWinningPlayer(){
+        Deck startingDeck;
+        startingDeck = new Deck();
+        startingDeck.populateCards();
+        Game fakeGame;
+        fakeGame = new Game(players, startingDeck);
+        fakeGame.dealCards();
+        assertEquals("Hitchia", fakeGame.getWinner());
+    }
 }
