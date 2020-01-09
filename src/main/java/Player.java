@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class Player {
 
@@ -12,5 +13,8 @@ public class Player {
 
     public String getName(){
         return name;
+    }
+
+    public Collection cardsInHand() {
     }
 }
