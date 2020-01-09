@@ -39,7 +39,7 @@ public class Game {
         }
     }
 
-    public String getWinner() throws InterruptedException {
+    public String getWinner() {
 
         ArrayList<Card> cardsInPlay = new ArrayList<Card>();
         for ( Player player : this.players){
