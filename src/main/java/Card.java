@@ -18,4 +18,8 @@ public class Card {
     public int getRankValue() {
         return rank.getValue();
     }
+
+    public int getSuitValue() {
+        return suit.getValue();
+    }
 }

@@ -27,5 +27,10 @@ public class CardTest {
         assertEquals(1, card.getRankValue());
     }
 
+    @Test
+    public void canGetSuitValue(){
+        assertEquals(4, card.getSuitValue());
+    }
+
 
 }
