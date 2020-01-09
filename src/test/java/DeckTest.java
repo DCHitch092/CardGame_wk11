@@ -4,6 +4,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class DeckTest {
 
@@ -27,12 +28,18 @@ public class DeckTest {
 
     @Test
     public void hasCards(){
-        assertEquals(51, deck.getCards());
+        deck.populateCards();
+        assertEquals(52, deck.getCards().size());
     }
 
-//    @Test
-//    public voic areCardsShuffled(){
-//
-//    }
+    @Test
+    public voic areCardsShuffled(){
+        deck.populateCards();
+        ArrayList<Card> startingDeck = deck.cardsInCurrentOrder();
+        deck.shuffleCards();
+        assertNotEquals(startingDeck, deck.cardsInCurrentOrder());
+
+
+    }
 
 }

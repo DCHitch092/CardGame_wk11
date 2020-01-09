@@ -27,5 +27,7 @@ public class Deck {
         return cards.size();
     }
 
-
+    public ArrayList<Card> cardsInCurrentOrder() {
+        return cards;
+    }
 }
