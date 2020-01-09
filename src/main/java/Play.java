@@ -31,6 +31,7 @@ public class Play {
         game = new Game(players, shuffledDeck);
         game.dealCards();
 
+        // Game Plays Out in Dramatic Text
         System.out.println("player 1 is " + players.get(0).getName());
         TimeUnit.SECONDS.sleep(1);
         System.out.println("player 2 is " + players.get(1).getName());
@@ -39,17 +40,18 @@ public class Play {
         TimeUnit.SECONDS.sleep(1);
         System.out.println("They look at their cards in secret...");
         TimeUnit.SECONDS.sleep(1);
-
         System.out.println(players.get(0).getName() + " has the " + players.get(0).cardsInHand().get(0).getRank() + " of " + players.get(0).cardsInHand().get(0).getSuit());
         TimeUnit.SECONDS.sleep(1);
 
+        // Game works out the winner
         String winner = game.getWinner();
+        int randomWordIndex = (int)Math.floor((double)((Math.random() * Verbs.values().length)));
 
         if (winner == player1.getName()){
-            System.out.println(players.get(1).getName() + " winces...");
+            System.out.println(players.get(1).getName() + " " + Verbs.values()[randomWordIndex].getValue() + "...");
             TimeUnit.SECONDS.sleep(1);
         } else {
-            System.out.println(players.get(0).getName() + " grins..!");
+            System.out.println(players.get(0).getName() + " " + Verbs.values()[randomWordIndex].getValue() + "...!");
             TimeUnit.SECONDS.sleep(1);
         }
 
