@@ -30,4 +30,18 @@ public class Deck {
     public ArrayList<Card> cardsInCurrentOrder() {
         return cards;
     }
+
+    public void shuffleCards() {
+
+        ArrayList<Card> shuffledDeck = new ArrayList<Card>();
+
+        while (cards.size() > 0){
+            int randomCardIndex = (int)(Math.random() * cards.size());
+            shuffledDeck.add(cards.remove(randomCardIndex));
+        }
+
+        this.cards = shuffledDeck;
+
+    }
+
 }

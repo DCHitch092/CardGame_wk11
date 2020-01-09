@@ -29,15 +29,15 @@ public class DeckTest {
     @Test
     public void hasCards(){
         deck.populateCards();
-        assertEquals(52, deck.getCards().size());
+        assertEquals(52, deck.cardsInCurrentOrder().size());
     }
 
     @Test
-    public voic areCardsShuffled(){
+    public void areCardsShuffled(){
         deck.populateCards();
-        ArrayList<Card> startingDeck = deck.cardsInCurrentOrder();
+        ArrayList<Card> startingDeck = new ArrayList<Card>(deck.cardsInCurrentOrder());
         deck.shuffleCards();
-        assertNotEquals(startingDeck, deck.cardsInCurrentOrder());
+        assertNotEquals(startingDeck.get(0), deck.cardsInCurrentOrder().get(0));
 
 
     }
