@@ -33,4 +33,11 @@ public class GameTest {
         assertEquals(52, game.getDeck().countCards());
         assertEquals(2, game.getPlayers().size());
     }
+
+    @Test
+    public void cardsAreDealt(){
+        game.dealCards();
+        assertEquals(1, player1.cardsInHand().size());
+        assertEquals(1, player2.cardsInHand().size());
+    }
 }
