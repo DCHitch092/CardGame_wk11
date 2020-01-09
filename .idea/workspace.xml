@@ -36,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CardTest.canGetRank">
     <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HighestCardGameLAB" />
       <option name="PACKAGE_NAME" value="" />
@@ -46,8 +46,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CardTest.canGetRank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HighestCardGameLAB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CardTest" />
+      <option name="METHOD_NAME" value="canGetRank" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CardTest.canGetRank" />
         <item itemvalue="JUnit.CardTest" />
       </list>
     </recent_temporary>
@@ -76,5 +87,23 @@
       <updated>1578576420645</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom" timestamp="1578577297083">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="211" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1578577297083" />
+    <state width="1398" height="211" key="GridCell.Tab.0.center" timestamp="1578577297082">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="211" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1578577297082" />
+    <state width="1398" height="211" key="GridCell.Tab.0.left" timestamp="1578577297082">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="211" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1578577297082" />
+    <state width="1398" height="211" key="GridCell.Tab.0.right" timestamp="1578577297083">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state width="1398" height="211" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1578577297083" />
   </component>
 </project>
