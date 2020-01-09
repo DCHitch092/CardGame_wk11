@@ -25,4 +25,14 @@ public class DeckTest {
         assertEquals(52, deck.countCards());
     }
 
+    @Test
+    public void hasCards(){
+        assertEquals(51, deck.getCards());
+    }
+
+//    @Test
+//    public voic areCardsShuffled(){
+//
+//    }
+
 }
