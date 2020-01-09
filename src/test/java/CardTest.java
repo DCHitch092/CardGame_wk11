@@ -22,4 +22,10 @@ public class CardTest {
         assertEquals(RankType.ACE, card.getRank());
     }
 
+    @Test
+    public void canGetRankValue(){
+        assertEquals(1, card.getRankValue());
+    }
+
+
 }
